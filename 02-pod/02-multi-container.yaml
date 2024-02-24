@@ -11,5 +11,4 @@ spec:
   containers:
   - name: almalinux
     image: almalinux:8
-    ports:
     command: ["sleep", "300"]
