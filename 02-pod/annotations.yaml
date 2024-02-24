@@ -1,0 +1,17 @@
+apiVersion: v1
+kind: Pod
+metadata: 
+  name: annotation-demo
+  labels:
+    course: "devops"
+    trainer: "shiva"
+  annotations:
+    com.roboshop.trainer: "siva"
+    jenkins.url: "http://www.jenkins.com/buil#45"
+
+spec:
+  containers:
+  - name: annotation-demo
+    image: nginx
+    ports:
+    - containerPort: 80
