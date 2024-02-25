@@ -23,4 +23,4 @@ spec:
   ports:
   - protocol: TCP
       port: 80 #service port
-      targetport: 9376 # container port
+      targetport: 80 # container port
