@@ -22,5 +22,5 @@ spec:
     demo: service
   ports:
   - protocol: TCP
-    port: 80 #service port
-    targetport: 9376 # container port
+      port: 80 #service port
+      targetport: 9376 # container port
