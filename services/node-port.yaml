@@ -6,7 +6,6 @@ metadata:
     app: nginx-nodeport
     demo: service
 spec:
-  type: Nodeport
   # list of containers
   containers:
   - name: nginx-nodeport
@@ -20,6 +19,7 @@ kind: Service
 metadata:
   name: nginx-nodeport
 spec:
+  type: Nodeport
   selector:
     app: nginx-nodeport
     demo: service
